@@ -8,5 +8,7 @@
 
 # Author
 - tmdoi 
-- 2021/09/28 start
+- https://qiita.com/tmdoi/items/61be444e1879912aa2a5
+- https://www.youtube.com/channel/UC41qeaw-dXNdl0puKkXiuKA
+- http://www2-doi.ct.osakafu-u.ac.jp/
 
