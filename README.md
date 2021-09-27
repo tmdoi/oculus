@@ -6,5 +6,7 @@
 # Relation page
 - Blog https://qiita.com/tmdoi/items/59fc039eb83f95e7dad1
 
-# 2021/09/28 start
+# Author
+- tmdoi 
+- 2021/09/28 start
 
