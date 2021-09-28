@@ -23,113 +23,113 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59611
+62407
 Successfully changed project path to: /Users/tomoharudoi/development/oculus/First_Project
 /Users/tomoharudoi/development/oculus/First_Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 106.37 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 7.35 ms.
+Refreshing native plugins compatible for Editor in 100.77 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 6.77 ms.
 Initialize engine version: 2021.1.22f1 (a137e5fb0427)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.22f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/tomoharudoi/development/oculus/First_Project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-2021-09-29 05:35:06.408 Unity[88140:5988565] (null) preferred device: Apple M1 (high power)
-2021-09-29 05:35:06.408 Unity[88140:5988565] Metal devices available: 1
-2021-09-29 05:35:06.408 Unity[88140:5988565] 0: Apple M1 (high power)
-2021-09-29 05:35:06.408 Unity[88140:5988565] Using device Apple M1 (high power)
+2021-09-29 08:01:40.761 Unity[89260:6047228] (null) preferred device: Apple M1 (high power)
+2021-09-29 08:01:40.761 Unity[89260:6047228] Metal devices available: 1
+2021-09-29 08:01:40.761 Unity[89260:6047228] 0: Apple M1 (high power)
+2021-09-29 08:01:40.762 Unity[89260:6047228] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.22f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.1.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.1.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001228 seconds.
+Registered in 0.002480 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 85.15 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.42 ms.
+Refreshing native plugins compatible for Editor in 91.81 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.45 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.414 seconds
+- Completed reload, in  3.049 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3414ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (3050ms)
+		BeginReloadAssembly (120ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1030ms)
-			LoadAssemblies (133ms)
-			RebuildTransferFunctionScriptingTraits (2ms)
-			SetupTypeCache (226ms)
+		EndReloadAssembly (1006ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (607ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (625ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (86ms)
-				BeforeProcessingInitializeOnLoad (5ms)
-				ProcessInitializeOnLoadAttributes (378ms)
-				ProcessInitializeOnLoadMethodAttributes (122ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (391ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004191 seconds.
+Registered in 0.004764 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/tomoharudoi/development/oculus/First_Project/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/tomoharudoi/development/oculus/First_Project/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.47 ms.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.48 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.521 seconds
+- Completed reload, in  2.800 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2522ms)
-		BeginReloadAssembly (296ms)
+	ReloadAssembly (2802ms)
+		BeginReloadAssembly (295ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (38ms)
+			DisableScriptedObjects (32ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (2128ms)
-			LoadAssemblies (194ms)
+		EndReloadAssembly (2397ms)
+			LoadAssemblies (220ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (461ms)
+			SetupTypeCache (472ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (1144ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (1304ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (973ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (1132ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (36ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launching external process: /Applications/Unity/Hub/Editor/2021.1.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.42 ms.
-Unloading 3318 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 236.9 MB.
-System memory in use after: 237.1 MB.
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.37 ms.
+Unloading 3424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.6 MB.
+System memory in use after: 241.8 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3752.
-Total: 4.291458 ms (FindLiveObjects: 0.205209 ms CreateObjectMapping: 0.072333 ms MarkObjects: 3.934375 ms  DeleteObjects: 0.078125 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3858.
+Total: 2.486709 ms (FindLiveObjects: 0.146584 ms CreateObjectMapping: 0.083458 ms MarkObjects: 2.195500 ms  DeleteObjects: 0.059875 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -143,379 +143,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Oculus/OculusProjectConfig.asset
-  artifactKey: Guid(8c1a588da5285e843b2797144dbc0b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/OculusProjectConfig.asset using Guid(8c1a588da5285e843b2797144dbc0b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b3a1a90debe644755aa132a05d6d8f') in 0.526219 seconds 
+  path: Assets/Oculus/VR/Oculus.VR.asmdef
+  artifactKey: Guid(f64c9ebcd7899c3448a08dc9f9ddbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Oculus.VR.asmdef using Guid(f64c9ebcd7899c3448a08dc9f9ddbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2540ba5f48d00fd1ac32059dc5e18966') in 0.506530 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002306 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/tomoharudoi/development/oculus/First_Project/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/tomoharudoi/development/oculus/First_Project/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 1.45 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.725 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2725ms)
-		BeginReloadAssembly (311ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (131ms)
-		EndReloadAssembly (2303ms)
-			LoadAssemblies (230ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (467ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (1216ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (1085ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (75ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.42 ms.
-Unloading 3378 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 241.8 MB.
-System memory in use after: 242.0 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3832.
-Total: 2.574625 ms (FindLiveObjects: 0.180750 ms CreateObjectMapping: 0.081625 ms MarkObjects: 2.289709 ms  DeleteObjects: 0.021417 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004364 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/tomoharudoi/development/oculus/First_Project/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/tomoharudoi/development/oculus/First_Project/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.68 ms.
-Instance of Unity.XR.Oculus.OculusLoader couldn't be created because there is no script with that name.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
-UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/EditorUtilities.cs:95)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:152)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:129)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:118)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:87)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:50)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
-
-[Library/PackageCache/com.unity.xr.management@4.1.0/Editor/EditorUtilities.cs line 95]
-
-We were unable to create an instance of the requested type Unity.XR.Oculus.OculusLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/EditorUtilities.cs:108)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:152)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:129)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:118)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:87)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:50)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
-
-(Filename: Library/PackageCache/com.unity.xr.management@4.1.0/Editor/EditorUtilities.cs Line: 108)
-
-Error creating instance of loader Oculus for package Oculus XR Plugin
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:157)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:129)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:118)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:87)
-UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs:50)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
-
-(Filename: Library/PackageCache/com.unity.xr.management@4.1.0/Editor/XRPackageInitialization.cs Line: 157)
-
-Obtained 256 stack frames.
-#0  0x000001046b51f9 in core::hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID, true>, core::hash_pair<core::hash<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID>, core::equal_pair<std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID> >::operator=(core::hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID, true>, core::hash_pair<core::hash<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID>, core::equal_pair<std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char> > >, core::basic_string<char, core::StringStorageDefault<char> > const, UnityGUID> > const&)
-#1  0x000001046bb20a in core::function_ref<void (SourceAssetDBWriteTxn&)>::function_ref<SourceAssetScanner::Refresh(ScanFilter const&, GuidReservations&)::$_2, (void*)0>(SourceAssetScanner::Refresh(ScanFilter const&, GuidReservations&)::$_2&&)::'lambda'(void*, SourceAssetDBWriteTxn&)::__invoke(void*, SourceAssetDBWriteTxn&)
-#2  0x000001046defd9 in LMDB_Transaction::Run(core::function_ref<void (LMDB_Transaction&)>)
-#3  0x000001046e377a in SourceAssetDBWriteTxn::Run(core::function_ref<void (SourceAssetDBWriteTxn&)>)
-#4  0x000001046aeca9 in SourceAssetScanner::Refresh(ScanFilter const&, GuidReservations&)
-#5  0x0000010466507b in Scan(ScanFilter const&)
-#6  0x00000104664f53 in ImportAtPathV2(core::basic_string_ref<char>, AssetDatabase::UpdateAssetOptions)
-#7  0x000001045fc64f in AssetDatabase::ImportAtPath(core::basic_string_ref<char>, AssetDatabase::UpdateAssetOptions)
-#8  0x000001046653e6 in CreateFolderV2(core::basic_string<char, core::StringStorageDefault<char> > const&)
-#9  0x0000010498fd5d in AssetDatabaseBindings::CreateFolder(core::basic_string<char, core::StringStorageDefault<char> > const&, core::basic_string<char, core::StringStorageDefault<char> > const&)
-#10 0x00000104a2b951 in AssetDatabase_CUSTOM_CreateFolder(ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeStringPtrOpaque*)
-#11 0x0000015c28bf65 in  (wrapper managed-to-native) UnityEditor.AssetDatabase:CreateFolder (string,string) {0x7f9aa0d43c80} + 0x65 (0x15c28bf00 0x15c28bff5) [0x154197960 - Unity Child Domain]
-#12 0x00000000000000 in (Unknown)
-#13 0x00000000000000 in (Unknown)
-#14 0x007f9ac60c0570 in (Unknown)
-#15 0x007f9ac60c0570 in (Unknown)
-#16 0x007f9ac60c0570 in (Unknown)
-#17 0x007f9ac60c0570 in (Unknown)
-#18 0x007f9ac60c0570 in (Unknown)
-#19 0x007f9ac60c0570 in (Unknown)
-#20 0x007f9ac60c0570 in (Unknown)
-#21 0x007f9ac60c0570 in (Unknown)
-#22 0x007f9ac60c0570 in (Unknown)
-#23 0x007f9ac60c0570 in (Unknown)
-#24 0x007f9ac60c0570 in (Unknown)
-#25 0x007f9ac60c0570 in (Unknown)
-#26 0x007f9ac60c0570 in (Unknown)
-#27 0x007f9ac60c0570 in (Unknown)
-#28 0x007f9ac60c0570 in (Unknown)
-#29 0x007f9ac60c0570 in (Unknown)
-#30 0x007f9ac60c0570 in (Unknown)
-#31 0x007f9ac60c0570 in (Unknown)
-#32 0x007f9ac60c0570 in (Unknown)
-#33 0x007f9ac60c0570 in (Unknown)
-#34 0x007f9ac60c0570 in (Unknown)
-#35 0x007f9ac60c0570 in (Unknown)
-#36 0x007f9ac60c0570 in (Unknown)
-#37 0x007f9ac60c0570 in (Unknown)
-#38 0x007f9ac60c0570 in (Unknown)
-#39 0x007f9ac60c0570 in (Unknown)
-#40 0x007f9ac60c0570 in (Unknown)
-#41 0x007f9ac60c0570 in (Unknown)
-#42 0x007f9ac60c0570 in (Unknown)
-#43 0x007f9ac60c0570 in (Unknown)
-#44 0x007f9ac60c0570 in (Unknown)
-#45 0x007f9ac60c0570 in (Unknown)
-#46 0x007f9ac60c0570 in (Unknown)
-#47 0x007f9ac60c0570 in (Unknown)
-#48 0x007f9ac60c0570 in (Unknown)
-#49 0x007f9ac60c0570 in (Unknown)
-#50 0x007f9ac60c0570 in (Unknown)
-#51 0x007f9ac60c0570 in (Unknown)
-#52 0x007f9ac60c0570 in (Unknown)
-#53 0x007f9ac60c0570 in (Unknown)
-#54 0x007f9ac60c0570 in (Unknown)
-#55 0x007f9ac60c0570 in (Unknown)
-#56 0x007f9ac60c0570 in (Unknown)
-#57 0x007f9ac60c0570 in (Unknown)
-#58 0x007f9ac60c0570 in (Unknown)
-#59 0x007f9ac60c0570 in (Unknown)
-#60 0x007f9ac60c0570 in (Unknown)
-#61 0x007f9ac60c0570 in (Unknown)
-#62 0x007f9ac60c0570 in (Unknown)
-#63 0x007f9ac60c0570 in (Unknown)
-#64 0x007f9ac60c0570 in (Unknown)
-#65 0x007f9ac60c0570 in (Unknown)
-#66 0x007f9ac60c0570 in (Unknown)
-#67 0x007f9ac60c0570 in (Unknown)
-#68 0x007f9ac60c0570 in (Unknown)
-#69 0x007f9ac60c0570 in (Unknown)
-#70 0x007f9ac60c0570 in (Unknown)
-#71 0x007f9ac60c0570 in (Unknown)
-#72 0x007f9ac60c0570 in (Unknown)
-#73 0x007f9ac60c0570 in (Unknown)
-#74 0x007f9ac60c0570 in (Unknown)
-#75 0x007f9ac60c0570 in (Unknown)
-#76 0x007f9ac60c0570 in (Unknown)
-#77 0x007f9ac60c0570 in (Unknown)
-#78 0x007f9ac60c0570 in (Unknown)
-#79 0x007f9ac60c0570 in (Unknown)
-#80 0x007f9ac60c0570 in (Unknown)
-#81 0x007f9ac60c0570 in (Unknown)
-#82 0x007f9ac60c0570 in (Unknown)
-#83 0x007f9ac60c0570 in (Unknown)
-#84 0x007f9ac60c0570 in (Unknown)
-#85 0x007f9ac60c0570 in (Unknown)
-#86 0x007f9ac60c0570 in (Unknown)
-#87 0x007f9ac60c0570 in (Unknown)
-#88 0x007f9ac60c0570 in (Unknown)
-#89 0x007f9ac60c0570 in (Unknown)
-#90 0x007f9ac60c0570 in (Unknown)
-#91 0x007f9ac60c0570 in (Unknown)
-#92 0x007f9ac60c0570 in (Unknown)
-#93 0x007f9ac60c0570 in (Unknown)
-#94 0x007f9ac60c0570 in (Unknown)
-#95 0x007f9ac60c0570 in (Unknown)
-#96 0x007f9ac60c0570 in (Unknown)
-#97 0x007f9ac60c0570 in (Unknown)
-#98 0x007f9ac60c0570 in (Unknown)
-#99 0x007f9ac60c0570 in (Unknown)
-#1000x007f9ac60c0570 in (Unknown)
-#1010x007f9ac60c0570 in (Unknown)
-#1020x007f9ac60c0570 in (Unknown)
-#1030x007f9ac60c0570 in (Unknown)
-#1040x007f9ac60c0570 in (Unknown)
-#1050x007f9ac60c0570 in (Unknown)
-#1060x007f9ac60c0570 in (Unknown)
-#1070x007f9ac60c0570 in (Unknown)
-#1080x007f9ac60c0570 in (Unknown)
-#1090x007f9ac60c0570 in (Unknown)
-#1100x007f9ac60c0570 in (Unknown)
-#1110x007f9ac60c0570 in (Unknown)
-#1120x007f9ac60c0570 in (Unknown)
-#1130x007f9ac60c0570 in (Unknown)
-#1140x007f9ac60c0570 in (Unknown)
-#1150x007f9ac60c0570 in (Unknown)
-#1160x007f9ac60c0570 in (Unknown)
-#1170x007f9ac60c0570 in (Unknown)
-#1180x007f9ac60c0570 in (Unknown)
-#1190x007f9ac60c0570 in (Unknown)
-#1200x007f9ac60c0570 in (Unknown)
-#1210x007f9ac60c0570 in (Unknown)
-#1220x007f9ac60c0570 in (Unknown)
-#1230x007f9ac60c0570 in (Unknown)
-#1240x007f9ac60c0570 in (Unknown)
-#1250x007f9ac60c0570 in (Unknown)
-#1260x007f9ac60c0570 in (Unknown)
-#1270x007f9ac60c0570 in (Unknown)
-#1280x007f9ac60c0570 in (Unknown)
-#1290x007f9ac60c0570 in (Unknown)
-#1300x007f9ac60c0570 in (Unknown)
-#1310x007f9ac60c0570 in (Unknown)
-#1320x007f9ac60c0570 in (Unknown)
-#1330x007f9ac60c0570 in (Unknown)
-#1340x007f9ac60c0570 in (Unknown)
-#1350x007f9ac60c0570 in (Unknown)
-#1360x007f9ac60c0570 in (Unknown)
-#1370x007f9ac60c0570 in (Unknown)
-#1380x007f9ac60c0570 in (Unknown)
-#1390x007f9ac60c0570 in (Unknown)
-#1400x007f9ac60c0570 in (Unknown)
-#1410x007f9ac60c0570 in (Unknown)
-#1420x007f9ac60c0570 in (Unknown)
-#1430x007f9ac60c0570 in (Unknown)
-#1440x007f9ac60c0570 in (Unknown)
-#1450x007f9ac60c0570 in (Unknown)
-#1460x007f9ac60c0570 in (Unknown)
-#1470x007f9ac60c0570 in (Unknown)
-#1480x007f9ac60c0570 in (Unknown)
-#1490x007f9ac60c0570 in (Unknown)
-#1500x007f9ac60c0570 in (Unknown)
-#1510x007f9ac60c0570 in (Unknown)
-#1520x007f9ac60c0570 in (Unknown)
-#1530x007f9ac60c0570 in (Unknown)
-#1540x007f9ac60c0570 in (Unknown)
-#1550x007f9ac60c0570 in (Unknown)
-#1560x007f9ac60c0570 in (Unknown)
-#1570x007f9ac60c0570 in (Unknown)
-#1580x007f9ac60c0570 in (Unknown)
-#1590x007f9ac60c0570 in (Unknown)
-#1600x007f9ac60c0570 in (Unknown)
-#1610x007f9ac60c0570 in (Unknown)
-#1620x007f9ac60c0570 in (Unknown)
-#1630x007f9ac60c0570 in (Unknown)
-#1640x007f9ac60c0570 in (Unknown)
-#1650x007f9ac60c0570 in (Unknown)
-#1660x007f9ac60c0570 in (Unknown)
-#1670x007f9ac60c0570 in (Unknown)
-#1680x007f9ac60c0570 in (Unknown)
-#1690x007f9ac60c0570 in (Unknown)
-#1700x007f9ac60c0570 in (Unknown)
-#1710x007f9ac60c0570 in (Unknown)
-#1720x007f9ac60c0570 in (Unknown)
-#1730x007f9ac60c0570 in (Unknown)
-#1740x007f9ac60c0570 in (Unknown)
-#1750x007f9ac60c0570 in (Unknown)
-#1760x007f9ac60c0570 in (Unknown)
-#1770x007f9ac60c0570 in (Unknown)
-#1780x007f9ac60c0570 in (Unknown)
-#1790x007f9ac60c0570 in (Unknown)
-#1800x007f9ac60c0570 in (Unknown)
-#1810x007f9ac60c0570 in (Unknown)
-#1820x007f9ac60c0570 in (Unknown)
-#1830x007f9ac60c0570 in (Unknown)
-#1840x007f9ac60c0570 in (Unknown)
-#1850x007f9ac60c0570 in (Unknown)
-#1860x007f9ac60c0570 in (Unknown)
-#1870x007f9ac60c0570 in (Unknown)
-#1880x007f9ac60c0570 in (Unknown)
-#1890x007f9ac60c0570 in (Unknown)
-#1900x007f9ac60c0570 in (Unknown)
-#1910x007f9ac60c0570 in (Unknown)
-#1920x007f9ac60c0570 in (Unknown)
-#1930x007f9ac60c0570 in (Unknown)
-#1940x007f9ac60c0570 in (Unknown)
-#1950x007f9ac60c0570 in (Unknown)
-#1960x007f9ac60c0570 in (Unknown)
-#1970x007f9ac60c0570 in (Unknown)
-#1980x007f9ac60c0570 in (Unknown)
-#1990x007f9ac60c0570 in (Unknown)
-#2000x007f9ac60c0570 in (Unknown)
-#2010x007f9ac60c0570 in (Unknown)
-#2020x007f9ac60c0570 in (Unknown)
-#2030x007f9ac60c0570 in (Unknown)
-#2040x007f9ac60c0570 in (Unknown)
-#2050x007f9ac60c0570 in (Unknown)
-#2060x007f9ac60c0570 in (Unknown)
-#2070x007f9ac60c0570 in (Unknown)
-#2080x007f9ac60c0570 in (Unknown)
-#2090x007f9ac60c0570 in (Unknown)
-#2100x007f9ac60c0570 in (Unknown)
-#2110x007f9ac60c0570 in (Unknown)
-#2120x007f9ac60c0570 in (Unknown)
-#2130x007f9ac60c0570 in (Unknown)
-#2140x007f9ac60c0570 in (Unknown)
-#2150x007f9ac60c0570 in (Unknown)
-#2160x007f9ac60c0570 in (Unknown)
-#2170x007f9ac60c0570 in (Unknown)
-#2180x007f9ac60c0570 in (Unknown)
-#2190x007f9ac60c0570 in (Unknown)
-#2200x007f9ac60c0570 in (Unknown)
-#2210x007f9ac60c0570 in (Unknown)
-#2220x007f9ac60c0570 in (Unknown)
-#2230x007f9ac60c0570 in (Unknown)
-#2240x007f9ac60c0570 in (Unknown)
-#2250x007f9ac60c0570 in (Unknown)
-#2260x007f9ac60c0570 in (Unknown)
-#2270x007f9ac60c0570 in (Unknown)
-#2280x007f9ac60c0570 in (Unknown)
-#2290x007f9ac60c0570 in (Unknown)
-#2300x007f9ac60c0570 in (Unknown)
-#2310x007f9ac60c0570 in (Unknown)
-#2320x007f9ac60c0570 in (Unknown)
-#2330x007f9ac60c0570 in (Unknown)
-#2340x007f9ac60c0570 in (Unknown)
-#2350x007f9ac60c0570 in (Unknown)
-#2360x007f9ac60c0570 in (Unknown)
-#2370x007f9ac60c0570 in (Unknown)
-#2380x007f9ac60c0570 in (Unknown)
-#2390x007f9ac60c0570 in (Unknown)
-#2400x007f9ac60c0570 in (Unknown)
-#2410x007f9ac60c0570 in (Unknown)
-#2420x007f9ac60c0570 in (Unknown)
-#2430x007f9ac60c0570 in (Unknown)
-#2440x007f9ac60c0570 in (Unknown)
-#2450x007f9ac60c0570 in (Unknown)
-#2460x007f9ac60c0570 in (Unknown)
-#2470x007f9ac60c0570 in (Unknown)
-#2480x007f9ac60c0570 in (Unknown)
-#2490x007f9ac60c0570 in (Unknown)
-#2500x007f9ac60c0570 in (Unknown)
-#2510x007f9ac60c0570 in (Unknown)
-#2520x007f9ac60c0570 in (Unknown)
-#2530x007f9ac60c0570 in (Unknown)
-#2540x007f9ac60c0570 in (Unknown)
-#2550x007f9ac60c0570 in (Unknown)
+Received Import Request.
+  Time since last request: 44.661067 seconds.
+  path: Assets/Oculus/VR/Scenes/ControllerModels.unity
+  artifactKey: Guid(39cfe7aa0a2d46c47994d8d0308ec663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Scenes/ControllerModels.unity using Guid(39cfe7aa0a2d46c47994d8d0308ec663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46594072b374ce3f433a873b5d3d5050') in 0.015954 seconds 
