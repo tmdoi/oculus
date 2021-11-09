@@ -20,4 +20,13 @@ public class Bullet : MonoBehaviour
         rigidbody.AddForce(velocity, ForceMode.VelocityChange);
     }
 
+    // トリガー領域進入時に呼び出される
+    void OnTriggerEnter(Collider other)
+    {
+        // 衝突対象に"OnHitBullet"メッセージ
+        other.SendMessage("OnHitBullet");
+
+        // 自身のゲームオブジェクトを破棄
+        Destroy(gameObject);
+    }
 }

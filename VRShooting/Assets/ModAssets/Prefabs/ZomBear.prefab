@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2464877219489026981}
   - component: {fileID: 2464877219484238541}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Zombear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2464877219489026983}
   - component: {fileID: 2464877219479976973}
-  m_Layer: 0
+  - component: {fileID: 4925009515852847517}
+  - component: {fileID: 364840521545809122}
+  - component: {fileID: 8900639179720444452}
+  m_Layer: 7
   m_Name: ZomBear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,3 +139,45 @@ Animator:
   m_HasTransformHierarchy: 0
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!136 &4925009515852847517
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2464877219489451911}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1.917517
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.45875812, z: 0}
+--- !u!54 &364840521545809122
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2464877219489451911}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &8900639179720444452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2464877219489451911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 325e4d450afeb461799c887102f9b278, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
