@@ -10,14 +10,18 @@ public class Shooter : MonoBehaviour
     [SerializeField] ParticleSystem gunParticle; // 発射時演出
     [SerializeField] AudioSource gunAudioSource; // 発射音の音源
 
-    // Update is called once per frame
-    void Update()
+    [SerializeField] float bulletInterval = 0.5f;   // 弾を発射する間隔
+
+    void OnEnable()
     {
-        // 入力に応じて弾を発射する
-        if (Input.GetButtonDown("Fire1"))
-        {
-            Shoot();
-        }
+        // 2秒後に弾を連続で発射する
+        InvokeRepeating("Shoot", 2.0f, bulletInterval);
+    }
+
+    void OnDisable()
+    {
+        // Shoot処理を停止する
+        CancelInvoke("Shoot");
     }
 
     void Shoot()
