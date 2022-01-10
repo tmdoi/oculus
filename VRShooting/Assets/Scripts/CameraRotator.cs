@@ -8,6 +8,8 @@ public class CameraRotator : MonoBehaviour
 
     float horizontalAngle = 0f; // 水平方向の回転量を保存
     float verticalAngle = 0f;   // 垂直方向の回転量を保存
+    float BA = 0f;
+    // float BB = 0f;
 
 #if UNITY_EDITOR
     void Update()
@@ -16,9 +18,23 @@ public class CameraRotator : MonoBehaviour
         var horizontalRotation = Input.GetAxis("Horizontal") * angularVelocity * Time.deltaTime;
         var verticalRotation = -Input.GetAxis("Vertical") * angularVelocity * Time.deltaTime;
 
+        if (OVRInput.GetDown(OVRInput.RawButton.A))
+        {
+            Debug.Log("Aボタンを押した");
+            BA = 1;
+            
+        }
+        if (OVRInput.GetDown(OVRInput.RawButton.B))
+        {
+            Debug.Log("Bボタンを押した");
+            BA = -1;
+        }
+
         // 回転量を更新
-        horizontalAngle += horizontalRotation;
+        horizontalAngle += horizontalRotation + BA;
         verticalAngle += verticalRotation;
+        BA = 0;
+ 
 
         // 垂直方向は回転し過ぎないように制限
         verticalAngle = Mathf.Clamp(verticalAngle, -80f, 80f);

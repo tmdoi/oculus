@@ -23,366 +23,1469 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49648
+53444
 Successfully changed project path to: /Users/tomoharudoi/work/oculus/VRShooting
 /Users/tomoharudoi/work/oculus/VRShooting
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 131.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 218.03 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 9.99 ms.
 Initialize engine version: 2021.1.27f1 (7e296a84045d)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.27f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/tomoharudoi/work/oculus/VRShooting/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-2021-12-28 05:23:11.326 Unity[4772:4672068] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2021-12-28 05:23:11.327 Unity[4772:4672068] Metal devices available: 1
-2021-12-28 05:23:11.327 Unity[4772:4672068] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2021-12-28 05:23:11.327 Unity[4772:4672068] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2022-01-11 05:34:10.331 Unity[28181:5377293] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2022-01-11 05:34:10.331 Unity[28181:5377293] Metal devices available: 1
+2022-01-11 05:34:10.331 Unity[28181:5377293] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2022-01-11 05:34:10.331 Unity[28181:5377293] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.27f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.1.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56181
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.1.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000831 seconds.
+Registered in 0.000471 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 142.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 119.65 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.54 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.579 seconds
+- Completed reload, in  4.531 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5579ms)
-		BeginReloadAssembly (64ms)
+	ReloadAssembly (4531ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1588ms)
-			LoadAssemblies (63ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (648ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (919ms)
+			SetupTypeCache (225ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (408ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (322ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (143ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (197ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004012 seconds.
+Registered in 0.003980 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/tomoharudoi/work/oculus/VRShooting/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/tomoharudoi/work/oculus/VRShooting/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.171 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2172ms)
-		BeginReloadAssembly (242ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1802ms)
-			LoadAssemblies (132ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (921ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (553ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (441ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2021.1.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3625 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 255.3 MB.
-System memory in use after: 255.4 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 4067.
-Total: 5.554330 ms (FindLiveObjects: 0.288740 ms CreateObjectMapping: 0.188587 ms MarkObjects: 4.967230 ms  DeleteObjects: 0.108751 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002885 seconds.
-Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/tomoharudoi/work/oculus/VRShooting/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/tomoharudoi/work/oculus/VRShooting/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.64 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.493 seconds
+- Completed reload, in  1.675 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1493ms)
-		BeginReloadAssembly (179ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (89ms)
-		EndReloadAssembly (1223ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (529ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (407ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (314ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3599 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 255.5 MB.
-System memory in use after: 255.6 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4069.
-Total: 3.559999 ms (FindLiveObjects: 0.282296 ms CreateObjectMapping: 0.159889 ms MarkObjects: 3.035133 ms  DeleteObjects: 0.081817 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/GazeHoldEvent.cs
-  artifactKey: Guid(3c18b9bf02f33447c826a3612e39ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GazeHoldEvent.cs using Guid(3c18b9bf02f33447c826a3612e39ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b502b2fc28baf4e864f1eb2ef8f2a53') in 3.340020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 190.220819 seconds.
-  path: Assets/Scripts/GazeHoldEvent.cs
-  artifactKey: Guid(3c18b9bf02f33447c826a3612e39ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GazeHoldEvent.cs using Guid(3c18b9bf02f33447c826a3612e39ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447e4989502f8bf61118bf4f4c312338') in 0.004609 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002997 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/tomoharudoi/work/oculus/VRShooting/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/tomoharudoi/work/oculus/VRShooting/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.471 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1471ms)
-		BeginReloadAssembly (178ms)
+	ReloadAssembly (1676ms)
+		BeginReloadAssembly (191ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (94ms)
-		EndReloadAssembly (1196ms)
-			LoadAssemblies (110ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1414ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (513ms)
+			SetupTypeCache (650ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (373ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (291ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3599 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 260.3 MB.
-System memory in use after: 260.4 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4071.
-Total: 3.478190 ms (FindLiveObjects: 0.279392 ms CreateObjectMapping: 0.171073 ms MarkObjects: 2.951543 ms  DeleteObjects: 0.075395 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 170.364287 seconds.
-  path: Assets/Scripts/Enemy.cs
-  artifactKey: Guid(325e4d450afeb461799c887102f9b278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemy.cs using Guid(325e4d450afeb461799c887102f9b278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fc3843ca78b6c179983fc90679212c') in 0.007675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.126932 seconds.
-  path: Assets/Scripts/GazeHoldEvent.cs
-  artifactKey: Guid(3c18b9bf02f33447c826a3612e39ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GazeHoldEvent.cs using Guid(3c18b9bf02f33447c826a3612e39ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e400951364bdb69191fe98e448ce1f') in 0.002608 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005705 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/tomoharudoi/work/oculus/VRShooting/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/tomoharudoi/work/oculus/VRShooting/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.443 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1444ms)
-		BeginReloadAssembly (179ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (91ms)
-		EndReloadAssembly (1187ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (521ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (372ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (441ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (293ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3599 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 260.6 MB.
-System memory in use after: 260.7 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4073.
-Total: 4.353778 ms (FindLiveObjects: 0.386268 ms CreateObjectMapping: 0.186017 ms MarkObjects: 3.694781 ms  DeleteObjects: 0.085679 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008196 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/tomoharudoi/work/oculus/VRShooting/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/tomoharudoi/work/oculus/VRShooting/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.444 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1444ms)
-		BeginReloadAssembly (160ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (82ms)
-		EndReloadAssembly (1214ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (473ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (396ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (317ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (330ms)
 				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3599 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 260.9 MB.
-System memory in use after: 261.0 MB.
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.71 ms.
+Unloading 4163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 279.8 MB.
+System memory in use after: 279.9 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4075.
-Total: 3.750874 ms (FindLiveObjects: 0.294138 ms CreateObjectMapping: 0.159379 ms MarkObjects: 3.220669 ms  DeleteObjects: 0.075644 ms)
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4592.
+Total: 4.014116 ms (FindLiveObjects: 0.317672 ms CreateObjectMapping: 0.175561 ms MarkObjects: 3.408498 ms  DeleteObjects: 0.111395 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png
+  artifactKey: Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png using Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b8a916743843a9f90561bde0dba01bc2') in 1.305007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/9Sliced.png
+  artifactKey: Guid(8884154dfe85442a3a3578be807dbcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/9Sliced.png using Guid(8884154dfe85442a3a3578be807dbcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '342514c60351eb43cf63085ab9bb2638') in 0.035107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Capsule.png
+  artifactKey: Guid(207ee8102dd4143d288186ef0be518ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Capsule.png using Guid(207ee8102dd4143d288186ef0be518ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '6c7b6cbfab434888b07a9a8d8d7857eb') in 0.036595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/HexagonPointedTop.png
+  artifactKey: Guid(5aa8b770bc43046bc8d993d0d5b7f4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/HexagonPointedTop.png using Guid(5aa8b770bc43046bc8d993d0d5b7f4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'e93e8bf9a00fd00e44f19cf4ac064bd7') in 0.030928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png
+  artifactKey: Guid(a86470a33a6bf42c4b3595704624658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png using Guid(a86470a33a6bf42c4b3595704624658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '07a343c6a9da5c29853fff4b8df1a9d8') in 0.031008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/HexagonFlatTop.png
+  artifactKey: Guid(b670ab75dde984907b8570040daa08c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/HexagonFlatTop.png using Guid(b670ab75dde984907b8570040daa08c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '422409e540d0ee97037de8b7b139e052') in 0.034660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/IsometricDiamond.png
+  artifactKey: Guid(19fb86013d8c24d6cb8410c0aadf30fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/IsometricDiamond.png using Guid(19fb86013d8c24d6cb8410c0aadf30fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '9ae477b7dc1cca53230f16d70c2818b9') in 0.041566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.651770 seconds.
+  path: Assets/FPS/Audio/SFX/UI/Notification_Chime.wav
+  artifactKey: Guid(179db782f1044bc48b9dff5d487c4bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/Audio/SFX/UI/Notification_Chime.wav using Guid(179db782f1044bc48b9dff5d487c4bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0bafe83560209fd37d0d4158517513') in 1.186800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/FPS/Audio/SFX/UI/Notification_End.wav
+  artifactKey: Guid(a533219934975884e81c1add37af9930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/Audio/SFX/UI/Notification_End.wav using Guid(a533219934975884e81c1add37af9930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ad95851ee129efd00c1c97f1eb2429') in 0.018456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001158 seconds.
+  path: Assets/FPS/Audio/SFX/UI/Notification_Snap.wav
+  artifactKey: Guid(3f01be6994a0ab6448a945dbdd9b3cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/Audio/SFX/UI/Notification_Snap.wav using Guid(3f01be6994a0ab6448a945dbdd9b3cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1edfd8eeaaa9bd68cd55ac0f65787371') in 0.020521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.550606 seconds.
+  path: Assets/ModAssets/Prefabs/BillboardPrefabs/BillboardBasic.prefab
+  artifactKey: Guid(441945e8a4aa644b3ac6600c6712f79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Prefabs/BillboardPrefabs/BillboardBasic.prefab using Guid(441945e8a4aa644b3ac6600c6712f79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db50a3de7ae742854fd9ebf2f408fdd1') in 1.530706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/ModAssets/Prefabs/BillboardPrefabs/BillboardTall.prefab
+  artifactKey: Guid(eb2165edd3e7844999a55b305c92b541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Prefabs/BillboardPrefabs/BillboardTall.prefab using Guid(eb2165edd3e7844999a55b305c92b541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9678c5cc98ea953796ba44e540280a36') in 0.026214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/ModAssets/Prefabs/BillboardPrefabs/BillboardWide.prefab
+  artifactKey: Guid(87a6cea72ce7247a2814467dab442418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Prefabs/BillboardPrefabs/BillboardWide.prefab using Guid(87a6cea72ce7247a2814467dab442418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760c593d71d22269c48c373a9a3af699') in 0.032796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.590283 seconds.
+  path: Assets/ModAssets/Textures/billboard_2D_basic.png
+  artifactKey: Guid(6448011b459a14b05969ad3bf1a44890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Textures/billboard_2D_basic.png using Guid(6448011b459a14b05969ad3bf1a44890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC8X8 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5197bdc279b07270208edaa46bac1c97') in 0.035658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/ModAssets/Textures/billboard_2D_basic_mask.png
+  artifactKey: Guid(ddff50e8139db4a99976adb5f40c79f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Textures/billboard_2D_basic_mask.png using Guid(ddff50e8139db4a99976adb5f40c79f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC8X8 sRGB format is not supported, decompressing texture
+ -> (artifact id: '0e30f4cdecd9209015f2ee33d2571d37') in 0.040323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/ModAssets/Textures/billboard_2D_tall_mask.png
+  artifactKey: Guid(bbe8d33a81a0549ce8ab1cee4aa7db2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Textures/billboard_2D_tall_mask.png using Guid(bbe8d33a81a0549ce8ab1cee4aa7db2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC8X8 sRGB format is not supported, decompressing texture
+ -> (artifact id: '135cb96fdecb2d5ab9f8e82389e9c49f') in 0.031951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/ModAssets/Textures/rainbowtexture.png
+  artifactKey: Guid(1b6d33a625dab47a48c2b062e2ce39bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Textures/rainbowtexture.png using Guid(1b6d33a625dab47a48c2b062e2ce39bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC8X8 sRGB format is not supported, decompressing texture
+ -> (artifact id: '78abb7f7f7de5ea0c8840d6878ecd0c1') in 0.019834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/ModAssets/Textures/billboard_2D_tall.png
+  artifactKey: Guid(50b2c32ff3de94988a61633cb19060de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Textures/billboard_2D_tall.png using Guid(50b2c32ff3de94988a61633cb19060de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC8X8 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'd8e58b370de27260dc7890d5598d13ec') in 0.045998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/ModAssets/Textures/billboard_2D_wide_mask.png
+  artifactKey: Guid(d88311d2ea92740ed9e0274f02825ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Textures/billboard_2D_wide_mask.png using Guid(d88311d2ea92740ed9e0274f02825ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC8X8 sRGB format is not supported, decompressing texture
+ -> (artifact id: '455aedca3254f59a5ca5ec1822aeca7b') in 0.060506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/ModAssets/Textures/billboard_2D_wide.png
+  artifactKey: Guid(3142e986a20354e5c9b3394e5ff7ae12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Textures/billboard_2D_wide.png using Guid(3142e986a20354e5c9b3394e5ff7ae12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC8X8 sRGB format is not supported, decompressing texture
+ -> (artifact id: '13a4d9a37fd207125c249837a386e6eb') in 0.048486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.401316 seconds.
+  path: Assets/FPS/Animation/Turret/Turret@ActivatedHurt.fbx
+  artifactKey: Guid(2a883265866f68f44b24327c4c23275e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/Animation/Turret/Turret@ActivatedHurt.fbx using Guid(2a883265866f68f44b24327c4c23275e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cee57a9f592459f7b6fa0800a213402') in 0.327184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/FPS/Animation/Turret/Turret@AttackOut.fbx
+  artifactKey: Guid(a43aac245dca8ed4da27d100a5b9e5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/Animation/Turret/Turret@AttackOut.fbx using Guid(a43aac245dca8ed4da27d100a5b9e5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f502792354e1d0431460a28bf80762cc') in 0.010025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Textures/ArchesOcclusion.png
+  artifactKey: Guid(2aabe84e37c1686468b7e9741a75acfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ArchesOcclusion.png using Guid(2aabe84e37c1686468b7e9741a75acfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '749f5600c05f5c75a8c3f8710e071825') in 0.072335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/FPS/Prefabs/UI/AmmoCounter.prefab
+  artifactKey: Guid(381e109c8e235f54cbcfbe7434554e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/Prefabs/UI/AmmoCounter.prefab using Guid(381e109c8e235f54cbcfbe7434554e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084d49dd125fcfdec3b392e149573adb') in 0.037381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Textures/ArchesDiffuse.png
+  artifactKey: Guid(f991c5ebb40b5db42b9505a1a96c5ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ArchesDiffuse.png using Guid(f991c5ebb40b5db42b9505a1a96c5ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '369252e76719b519dcbb4acce794b593') in 0.057323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039624 seconds.
+  path: Assets/Textures/UIButtonDefault.png
+  artifactKey: Guid(691c72ed2864a3f42a2479bbe70525cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UIButtonDefault.png using Guid(691c72ed2864a3f42a2479bbe70525cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'decf4aa6edfcbcde8abe0699e273cc05') in 0.033501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/FPS/Audio/SFX/Weapons/Launcher_Charge_BuildUp.wav
+  artifactKey: Guid(7a0479c7c60da2d45b93a1af1afe6c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/Audio/SFX/Weapons/Launcher_Charge_BuildUp.wav using Guid(7a0479c7c60da2d45b93a1af1afe6c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72c615810d56956e62884768a84496a') in 0.016398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Textures/UISliderBG.png
+  artifactKey: Guid(236d996a6f89832458bce35d9d4a268b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UISliderBG.png using Guid(236d996a6f89832458bce35d9d4a268b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '6ad11ab993fa4b9ceff32ea7fe57937c') in 0.042898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Resources/OVRBuildConfig.asset
+  artifactKey: Guid(a00d640e5a11449beaf64b2577208846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OVRBuildConfig.asset using Guid(a00d640e5a11449beaf64b2577208846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed5dd1d707608ce09e90c2d9e70d46b') in 0.186518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Textures/UIButtonHighlighted.png
+  artifactKey: Guid(5362fbfb8a7d67b499bebb4e286cea71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UIButtonHighlighted.png using Guid(5362fbfb8a7d67b499bebb4e286cea71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '1a928adb6914036c20eebd45a81a777d') in 0.019929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Textures/UISliderFill.png
+  artifactKey: Guid(8640ef3b950dc01419a5369463f74721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UISliderFill.png using Guid(8640ef3b950dc01419a5369463f74721) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'f8afa66475909146e1074fe52b291297') in 0.025852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Textures/UIButtonPressed.png
+  artifactKey: Guid(997c5c17c1c4b8e45b6a1c47799ddeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UIButtonPressed.png using Guid(997c5c17c1c4b8e45b6a1c47799ddeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '06e2942834234a316078da9ba8e36ddb') in 0.027702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Textures/UIPanel.png
+  artifactKey: Guid(a5a780e4a881ea44f88afed421a63c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UIPanel.png using Guid(a5a780e4a881ea44f88afed421a63c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c7e29145465563ae71473d5efac6bf29') in 0.024870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.955156 seconds.
+  path: Assets/Textures/UISliderHandle.png
+  artifactKey: Guid(aeb818ab889bcd24199891c3cbbc6e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UISliderHandle.png using Guid(aeb818ab889bcd24199891c3cbbc6e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c2acc0017152017f45d1b4a720b86130') in 0.012382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.192344 seconds.
+  path: Assets/Textures/ArchesNormals.png
+  artifactKey: Guid(9f5b2bd0e9ae86a4588ddf76b5ddc700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ArchesNormals.png using Guid(9f5b2bd0e9ae86a4588ddf76b5ddc700) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'af791d9174bc2b7e16fff686b3e214db') in 0.057358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Textures/BatDiffuse.png
+  artifactKey: Guid(028342423eafc3a4d8ea4788371d744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/BatDiffuse.png using Guid(028342423eafc3a4d8ea4788371d744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '367e3751f7ee6ba053bdced6e3ebb12e') in 0.065421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Textures/DollhouseNormals.png
+  artifactKey: Guid(5ba68f68e49792d4f9c087cd137ec0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/DollhouseNormals.png using Guid(5ba68f68e49792d4f9c087cd137ec0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'd708b3a996fd1d54d5a1dac5a9be58a5') in 0.044309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Textures/DollArmOcclusion.png
+  artifactKey: Guid(787bbb09a483d42458ba353a5f1f7cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/DollArmOcclusion.png using Guid(787bbb09a483d42458ba353a5f1f7cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '8412de3ca7535d82c946b273e01ec29a') in 0.046856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Textures/BatSpecular.tif
+  artifactKey: Guid(3a51fde69768ffe45b9d0fe68218682d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/BatSpecular.tif using Guid(3a51fde69768ffe45b9d0fe68218682d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '23baa252cecb8cd7a96c17daa197be32') in 1.056076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Textures/BloxOcclusion.png
+  artifactKey: Guid(a33e76a8a18682947930d95a62547c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/BloxOcclusion.png using Guid(a33e76a8a18682947930d95a62547c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'e2f8fcb10f838a7cf4da309453287769') in 0.052427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Textures/DollArmNormals.png
+  artifactKey: Guid(6b2b0c4bf9125a34095371457bd07f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/DollArmNormals.png using Guid(6b2b0c4bf9125a34095371457bd07f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '009b328cc25017dbb0b43c8dc0773e29') in 0.057868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Textures/ClockNormals.png
+  artifactKey: Guid(0b02c1b0f2dee13469778171ed1ff9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ClockNormals.png using Guid(0b02c1b0f2dee13469778171ed1ff9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'a7824943c11d0b7898996bcda68151cd') in 0.030235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Textures/ClockSpecular.tif
+  artifactKey: Guid(a9b9ddf6fe2c8a34d94a0f40cc7288c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ClockSpecular.tif using Guid(a9b9ddf6fe2c8a34d94a0f40cc7288c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '6c0844d02228fd41345bcb42e8145fef') in 0.040307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Textures/DollhouseOcclusion.png
+  artifactKey: Guid(953a666cbf70033428e8c1afa360bede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/DollhouseOcclusion.png using Guid(953a666cbf70033428e8c1afa360bede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '6d485a0e6e74ba890ab2b8bb81917ef8') in 0.056612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Textures/DollArmDiffuse.png
+  artifactKey: Guid(1b23ed5ec94433f41ae8af0e68b1ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/DollArmDiffuse.png using Guid(1b23ed5ec94433f41ae8af0e68b1ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a83bbae20b10ca6dae748b9ca2b4cc32') in 0.056019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Textures/ClockOcclusion.png
+  artifactKey: Guid(bb14626fa3aa3aa4ba0c22e62cfd8b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ClockOcclusion.png using Guid(bb14626fa3aa3aa4ba0c22e62cfd8b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '3b495ef55f4a30b3a2ec754fd363a31a') in 0.058108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Textures/ClockDiffuse.png
+  artifactKey: Guid(efa9e000e09a8e04e9d2e9030bcc78fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ClockDiffuse.png using Guid(efa9e000e09a8e04e9d2e9030bcc78fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '03c8feca17a6dc6dae78e208c6ed1afc') in 0.036523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Textures/DollhouseDiffuse.png
+  artifactKey: Guid(91e5744fc7025b34b9a274ab36df7e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/DollhouseDiffuse.png using Guid(91e5744fc7025b34b9a274ab36df7e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b36a1538b1d950a82c25ea44c05b4df7') in 0.068257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Textures/BatNormals.png
+  artifactKey: Guid(7ec2ffe965607c34fa4bcae2863815d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/BatNormals.png using Guid(7ec2ffe965607c34fa4bcae2863815d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '3acfa3894fbf27c0d66b861c11b1da06') in 0.083281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Textures/BloxDiffuse.png
+  artifactKey: Guid(b4d1c7d98e9dba44abe28774b401b5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/BloxDiffuse.png using Guid(b4d1c7d98e9dba44abe28774b401b5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a54277daec2e5df18f85921ad2f5dc88') in 0.043153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Textures/BatOcclusion.png
+  artifactKey: Guid(ed22a54916e788349a9667dde244c8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/BatOcclusion.png using Guid(ed22a54916e788349a9667dde244c8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5275577e5fd5cd1a9229ed6b734eb13b') in 0.051305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.608806 seconds.
+  path: Assets/Textures/DollhouseSpecular.tif
+  artifactKey: Guid(bd717824af089434aada5d941efbbe36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/DollhouseSpecular.tif using Guid(bd717824af089434aada5d941efbbe36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '057e101d74e7e0bf89e1d37846073801') in 0.043642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Textures/DrawersDiffuse.png
+  artifactKey: Guid(88553df029cf462428072d4ecb75273a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/DrawersDiffuse.png using Guid(88553df029cf462428072d4ecb75273a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '78c0c8b759334b6fd860c0ce36027922') in 0.071531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Textures/DrawersNormals.png
+  artifactKey: Guid(18683334a2daa4f40a666d3499c6eb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/DrawersNormals.png using Guid(18683334a2daa4f40a666d3499c6eb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'c8fc4ea80fa9bc33fd92d8190076afae') in 0.090905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Textures/DrawersSpecular.tif
+  artifactKey: Guid(3e81aed82f687094da25b33759ee1c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/DrawersSpecular.tif using Guid(3e81aed82f687094da25b33759ee1c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '15aac410370532789423d06990578bcd') in 0.087976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Textures/FiretruckDiffuse.png
+  artifactKey: Guid(48404ff521e16d149b89fa6e446741ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/FiretruckDiffuse.png using Guid(48404ff521e16d149b89fa6e446741ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '059d6fff347cb2cf937e77a89206acbe') in 0.079022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Textures/DrawersOcclusion.png
+  artifactKey: Guid(b49cb1af3dbbf9044a5bdb0a875c2359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/DrawersOcclusion.png using Guid(b49cb1af3dbbf9044a5bdb0a875c2359) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '6fa2dc943be76ecc396326485ad90524') in 0.056465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028417 seconds.
+  path: Assets/Textures/FiretruckNormals.png
+  artifactKey: Guid(0c47d4390b5db234dbe536895f43495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/FiretruckNormals.png using Guid(0c47d4390b5db234dbe536895f43495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'cd8ccaad9da25cbd63b66358bf39ee11') in 0.058394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Textures/FiretruckOcclusion.png
+  artifactKey: Guid(2ff3693a6a961b2439e15117174ce957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/FiretruckOcclusion.png using Guid(2ff3693a6a961b2439e15117174ce957) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '87b3428c27d99b934b868df3fe84516f') in 0.058793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.166914 seconds.
+  path: Assets/Textures/FiretruckSpecular.tif
+  artifactKey: Guid(04ebcf76f8471d946a0c79bc029b4141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/FiretruckSpecular.tif using Guid(04ebcf76f8471d946a0c79bc029b4141) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '15cde8bbd31a41cc38e3c773e7a186c5') in 0.057190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Textures/GunDiffuse.png
+  artifactKey: Guid(66cc5581f2192a549b9b9270381c9be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/GunDiffuse.png using Guid(66cc5581f2192a549b9b9270381c9be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '979c263e9348d1882019592543e8afde') in 0.073643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.100784 seconds.
+  path: Assets/Textures/GunNormals.png
+  artifactKey: Guid(8128aa17b6fcbb64e893327f11ab0239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/GunNormals.png using Guid(8128aa17b6fcbb64e893327f11ab0239) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'b7e74baf835c0471e60b94f7b81eb9cd') in 0.055594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Textures/GunOcclusion.png
+  artifactKey: Guid(02dff1fe2bc5e6f43b5ac5780d1c3b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/GunOcclusion.png using Guid(02dff1fe2bc5e6f43b5ac5780d1c3b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'f4172a4f336269eb69a5c2c703e52394') in 0.054949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.106311 seconds.
+  path: Assets/Textures/GunSpecular.tif
+  artifactKey: Guid(0bfd74eda21b8b4408f654c7cf1f3665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/GunSpecular.tif using Guid(0bfd74eda21b8b4408f654c7cf1f3665) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '8331273c8ab2bc2a4a727d21e68ef514') in 0.059401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Textures/HearseDiffuse.png
+  artifactKey: Guid(16939a00896ff6c41892078c2559b621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/HearseDiffuse.png using Guid(16939a00896ff6c41892078c2559b621) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '6b54237df6144376e843822e19fc44e6') in 0.068498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Textures/HearseOcclusion.png
+  artifactKey: Guid(1fab1e4d34b275a4cadc3c9f81ad817a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/HearseOcclusion.png using Guid(1fab1e4d34b275a4cadc3c9f81ad817a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '753a97a6ea9986453a7033933d97c94d') in 0.058587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/Textures/HellephantEmissive.png
+  artifactKey: Guid(f0b5213189232764daf08b2e7ad112f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/HellephantEmissive.png using Guid(f0b5213189232764daf08b2e7ad112f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'fd73b33a5e44704bb878755779b58ba1') in 0.045588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Textures/HellephantDiffuse.png
+  artifactKey: Guid(e6e99f9ddd45baf4bb95a4f65b0d88de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/HellephantDiffuse.png using Guid(e6e99f9ddd45baf4bb95a4f65b0d88de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '9c597f05749c4bafdfeaf5b9b1dde2c4') in 0.067147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000603 seconds.
+  path: Assets/Textures/HellephantNormals.png
+  artifactKey: Guid(39323f4e1dd1d80408bd05af5f2db69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/HellephantNormals.png using Guid(39323f4e1dd1d80408bd05af5f2db69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'c4effbcbfc905e3ba27fcaf0a666eef2') in 0.089480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Textures/HellephantOcclusion.png
+  artifactKey: Guid(2118c0f2414a28744bd2fc8d7e632f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/HellephantOcclusion.png using Guid(2118c0f2414a28744bd2fc8d7e632f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '380977fd0df4c246458737d640dc0489') in 0.070913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Textures/Heart.png
+  artifactKey: Guid(ac394e6e5080d754e8b437e5936fca3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Heart.png using Guid(ac394e6e5080d754e8b437e5936fca3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b7296a45fa377e7fe1ac825ffc80d8b5') in 0.025316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/Textures/PlanksDiffuse.png
+  artifactKey: Guid(2afdbfec03da65448a82f9bd561218c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PlanksDiffuse.png using Guid(2afdbfec03da65448a82f9bd561218c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'f697dc29d1294e87b07745974135b223') in 0.064231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Textures/HellephantSpecular.tif
+  artifactKey: Guid(2c38b41a69c9bdc4bbac4dbc9324dacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/HellephantSpecular.tif using Guid(2c38b41a69c9bdc4bbac4dbc9324dacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a9b9b464b72cf2a790b113b326f2dd4d') in 0.085444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Textures/PlayerDiffuse.png
+  artifactKey: Guid(a3cc890ba79fb47449fb51893aa9b363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PlayerDiffuse.png using Guid(a3cc890ba79fb47449fb51893aa9b363) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '303dfc79e706492de04ae361d36a8473') in 0.064791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Textures/PlanksSpecular.tif
+  artifactKey: Guid(41a4fe639750e1f46a3f96eef43eac7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PlanksSpecular.tif using Guid(41a4fe639750e1f46a3f96eef43eac7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b7df690dae7d5e83ef14eccf5e3691bb') in 0.226751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Textures/PuffSprite.png
+  artifactKey: Guid(acdb41fd591a7434a9f285ba714869c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PuffSprite.png using Guid(acdb41fd591a7434a9f285ba714869c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'aba1de544b1146305d3d4c3eb71ecfc7') in 0.019532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Textures/PuffNormalSprite.png
+  artifactKey: Guid(afcea23a190c35f4ab5d0dc51bd9c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PuffNormalSprite.png using Guid(afcea23a190c35f4ab5d0dc51bd9c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4c088635418f3b825d6b5bbb33395e') in 0.023430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Textures/PlayerNormals.png
+  artifactKey: Guid(d98be175031405b4fb3f6a5f459a22e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PlayerNormals.png using Guid(d98be175031405b4fb3f6a5f459a22e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '211599e65522f3f3383ccadd61f67447') in 0.046986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Textures/RobotDiffuse.png
+  artifactKey: Guid(fe9d2b783b9403f459ee92cf71d207e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/RobotDiffuse.png using Guid(fe9d2b783b9403f459ee92cf71d207e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '23954c928ca08b1fe2788626f5f08ced') in 0.043838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Textures/PlanksNormals.png
+  artifactKey: Guid(777d258aba35c41459675e40cf92c808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PlanksNormals.png using Guid(777d258aba35c41459675e40cf92c808) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '20b55ec23e428436dda4e7e73885d118') in 0.187633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Textures/RobotSpecular.tif
+  artifactKey: Guid(8136f0437c3f1304c90ab510cf2accd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/RobotSpecular.tif using Guid(8136f0437c3f1304c90ab510cf2accd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '83f6c992ae2696cc4bfb8f09131eef5f') in 0.073732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Textures/RobotOcclusion.png
+  artifactKey: Guid(c191e1d53f423ae4fb39545c8d3088d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/RobotOcclusion.png using Guid(c191e1d53f423ae4fb39545c8d3088d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '7dd162a70c62cdd89967bbf7f854f988') in 0.080758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Textures/StoolDiffuse.png
+  artifactKey: Guid(b75c17f964e69fb4fa26775bbb3b8bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/StoolDiffuse.png using Guid(b75c17f964e69fb4fa26775bbb3b8bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '7e953fa0786ff83c1bb8db15d44e5d04') in 0.084150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Textures/StoolNormals.png
+  artifactKey: Guid(911206f842e8da04da0f1f9042b5e555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/StoolNormals.png using Guid(911206f842e8da04da0f1f9042b5e555) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '406d9b52a04754e3d2bd333815379f38') in 0.069107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Textures/StoolOcclusion.png
+  artifactKey: Guid(f0b885155cd32d2478fb7c78b5a98c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/StoolOcclusion.png using Guid(f0b885155cd32d2478fb7c78b5a98c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'bb2e0087bb58eeb5e8903bb82ae41dcc') in 0.076739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Textures/SpinningTopNormals.png
+  artifactKey: Guid(52cd321a15b94ae4bb7a676f0382ee46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/SpinningTopNormals.png using Guid(52cd321a15b94ae4bb7a676f0382ee46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '937511a2191fa6da32c2b69d40f8d72f') in 0.074514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Textures/PlayerSpecular.tif
+  artifactKey: Guid(bc9b1c6383841ea4f9e532a49c651ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PlayerSpecular.tif using Guid(bc9b1c6383841ea4f9e532a49c651ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c322d5b96275bb605bed6f2d880de3b1') in 0.065283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Textures/HearseNormals.png
+  artifactKey: Guid(5fc9acdee62d8d642a83b43c73ca2abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/HearseNormals.png using Guid(5fc9acdee62d8d642a83b43c73ca2abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '61ab3abeb1161c462c88ca0f7e16b1c6') in 0.077733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Textures/TrainDiffuse.png
+  artifactKey: Guid(b14c8e325b9410d4a9700ebb36b41875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/TrainDiffuse.png using Guid(b14c8e325b9410d4a9700ebb36b41875) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'e07e6876b81809a1699841eff023a3fa') in 0.073104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Textures/StoolSpecular.tif
+  artifactKey: Guid(36a3c1c0711fe9f4f89dba21529eb883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/StoolSpecular.tif using Guid(36a3c1c0711fe9f4f89dba21529eb883) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '9e94a04ec0da5d988bed37b0d3217971') in 0.093094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Textures/TrainOcclusion.png
+  artifactKey: Guid(410beef8631343141bc5c918b4f4fe03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/TrainOcclusion.png using Guid(410beef8631343141bc5c918b4f4fe03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a187b2952f0faed1887549468b3821d3') in 0.088234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Textures/SpinningTopDiffuse.png
+  artifactKey: Guid(0c1b21108d167674aa8194bafaef8e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/SpinningTopDiffuse.png using Guid(0c1b21108d167674aa8194bafaef8e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '32eccc207e236e9a5e5f8110b4ed845a') in 0.092116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Textures/SpinningTopOcclusion.png
+  artifactKey: Guid(e195a48b7304e10499b4e02e42b13bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/SpinningTopOcclusion.png using Guid(e195a48b7304e10499b4e02e42b13bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '3accc1dc24e84f27cbb9cf1a77994c1a') in 0.063616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Textures/PlayerOcclusion.png
+  artifactKey: Guid(6ae2af98f5c9f0243806bfb6ccbbdd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PlayerOcclusion.png using Guid(6ae2af98f5c9f0243806bfb6ccbbdd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b559bffe736941af2346ce5eafef4861') in 0.065095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Textures/RobotNormals.png
+  artifactKey: Guid(63afb82f72573664786156bd5b087e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/RobotNormals.png using Guid(63afb82f72573664786156bd5b087e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '740a944d93a344aad04d8fbd4121f6ae') in 0.036699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Textures/TrainNormals.png
+  artifactKey: Guid(381a5191badc49d4e9a90118cadf64ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/TrainNormals.png using Guid(381a5191badc49d4e9a90118cadf64ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '8b86f56f0b93dae6b5f1e27fb5256f5d') in 0.065138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Textures/HearseSpecular.tif
+  artifactKey: Guid(72d2e042768206b46bb11e99674a6a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/HearseSpecular.tif using Guid(72d2e042768206b46bb11e99674a6a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '1b9eabc7886b204ceeca3d66d5c00dad') in 0.076848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Textures/PlanksOcclusion.png
+  artifactKey: Guid(e915ce70ce400f54682d462de1b188db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PlanksOcclusion.png using Guid(e915ce70ce400f54682d462de1b188db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '0311ec0ee4be4ea99a77e3dff0e7a98f') in 0.078501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Textures/UIToggleBG.png
+  artifactKey: Guid(2130698f043fe8149974dbe7b12d1752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UIToggleBG.png using Guid(2130698f043fe8149974dbe7b12d1752) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '694f81d7fc5ba631f72a9d664cd10e68') in 0.019129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Textures/ReflectorSoftboxDiffuse.tif
+  artifactKey: Guid(3645f1bcb5fb287409ecc3731e9b1669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ReflectorSoftboxDiffuse.tif using Guid(3645f1bcb5fb287409ecc3731e9b1669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '2b0cac19a0669fa25f16c867295ac93c') in 0.047557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082957 seconds.
+  path: Assets/Textures/UIToggleButton.png
+  artifactKey: Guid(90ee7b540ee22b84fb50965ff82a5d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UIToggleButton.png using Guid(90ee7b540ee22b84fb50965ff82a5d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '6b0dc2f8ca73e3897ac20e57882c5c9d') in 0.029646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Textures/WallDiffuse.png
+  artifactKey: Guid(aa18764e367f1a14ba7b403f813be05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/WallDiffuse.png using Guid(aa18764e367f1a14ba7b403f813be05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '29de5fb195e4188f7b5d4f303f55cd9e') in 0.048572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.262180 seconds.
+  path: Assets/Textures/WallNormals.png
+  artifactKey: Guid(25c6f434d9610ef44bf44671ef0be504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/WallNormals.png using Guid(25c6f434d9610ef44bf44671ef0be504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'a3c1630b62f04d71b448915ec9f0e7cb') in 0.145126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Textures/ZomBearDiffuse.png
+  artifactKey: Guid(4543a6aa9a0d7874c86b472dbe652692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ZomBearDiffuse.png using Guid(4543a6aa9a0d7874c86b472dbe652692) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '35bfca21e0706452cf0ca6d940944386') in 0.080482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Textures/WallSpecular.tif
+  artifactKey: Guid(3d9e68517e401ae449049a6e5ec82ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/WallSpecular.tif using Guid(3d9e68517e401ae449049a6e5ec82ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '7a502fc78e13d5382d69a4ae7f5998dc') in 0.049238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Textures/ZomBearNormals.png
+  artifactKey: Guid(babf27cb902ceac438c89f0dcb30bccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ZomBearNormals.png using Guid(babf27cb902ceac438c89f0dcb30bccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'c419cc3726387eb7fa5b017e887da4ac') in 0.085642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Textures/WallOcclusion.png
+  artifactKey: Guid(a62ef14f9fc2e92449d8e3182a679ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/WallOcclusion.png using Guid(a62ef14f9fc2e92449d8e3182a679ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b6b512a8b3afa31904cf9b6975bcfebb') in 0.057127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Textures/ZomBearEmission.png
+  artifactKey: Guid(0513a639646d5434085ed846c332e341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ZomBearEmission.png using Guid(0513a639646d5434085ed846c332e341) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a8bb98917efc9c32c8d1414d0a94e6c5') in 0.053609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067173 seconds.
+  path: Assets/Textures/ZomBearOcclusion.png
+  artifactKey: Guid(fa765a81bc7e9654db4e63eb74d757e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ZomBearOcclusion.png using Guid(fa765a81bc7e9654db4e63eb74d757e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'e13f5b836beab5296f33a73f17a30196') in 0.061923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Textures/ZomBearSpecular.tif
+  artifactKey: Guid(082a477a29c51434097a2cba0ae07c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ZomBearSpecular.tif using Guid(082a477a29c51434097a2cba0ae07c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a09917b55f2048ddf5a94f9087682a1a') in 0.050454 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005786 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/tomoharudoi/work/oculus/VRShooting/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/tomoharudoi/work/oculus/VRShooting/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+WARNING: RGBA Compressed ASTC8X8 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC8X8 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC8X8 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC8X8 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC8X8 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC8X8 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC8X8 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs:84)
+UnityEditor.PreviewScene:.ctor (string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:22)
+UnityEditor.PreviewRenderUtility:.ctor () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:108)
+UnityEditor.Texture3DPreview:InitPreviewUtility () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:209)
+UnityEditor.Texture3DPreview:OnEnable () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/Texture3DPreview.cs:193)
+
+[/Users/bokken/buildslave/unity/build/Editor/Mono/EditorSceneManager.bindings.cs line 84]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  5.817 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5817ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (109ms)
+		EndReloadAssembly (5529ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (659ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (489ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.91 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.79 ms.
+Unloading 4213 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 438.0 MB.
+System memory in use after: 438.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6112.
+Total: 8.662252 ms (FindLiveObjects: 1.454947 ms CreateObjectMapping: 0.588719 ms MarkObjects: 6.520100 ms  DeleteObjects: 0.096937 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.35 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.92 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 355.5 MB.
+System memory in use after: 355.9 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 6112.
+Total: 5.209893 ms (FindLiveObjects: 0.481595 ms CreateObjectMapping: 0.255103 ms MarkObjects: 4.388041 ms  DeleteObjects: 0.084164 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
